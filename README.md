@@ -1,2 +1,0 @@
-# Brogrammers
-Software Engineering Project
