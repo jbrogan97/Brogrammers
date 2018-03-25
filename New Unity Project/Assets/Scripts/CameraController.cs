@@ -14,15 +14,15 @@ public class CameraController : MonoBehaviour {
 	void Start () {
         //DontDestroyOnLoad(transform.gameObject);
 
-        if (!cameraExists)
-        {
-            cameraExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+       // if (!cameraExists)
+        //{
+          //  cameraExists = true;
+            //DontDestroyOnLoad(transform.gameObject);
+        //}
+        //else
+        //{
+          //  Destroy(gameObject);
+       // }
     }
 	
 	// Update is called once per frame
