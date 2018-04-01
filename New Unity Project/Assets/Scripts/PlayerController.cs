@@ -25,10 +25,10 @@ public class PlayerController : MonoBehaviour {
             playerExists = true;
             DontDestroyOnLoad(transform.gameObject);
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+        //else
+        //{
+          //  Destroy(gameObject);
+        //}
 
         
 	}
