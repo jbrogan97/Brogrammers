@@ -7,6 +7,7 @@ public class PlayerStressManager : MonoBehaviour {
     public int playerCurrentStress; 
 	// Use this for initialization
 	void Start () {
+        playerMaxStress = 100;
         playerCurrentStress = playerMaxStress;
 	}
 	
